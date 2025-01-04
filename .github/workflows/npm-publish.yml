@@ -36,6 +36,6 @@ jobs:
         with:
           version: 8
       - run: pnpm install
-      - run: pnpm publish
+      - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
